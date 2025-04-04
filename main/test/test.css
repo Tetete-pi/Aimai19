@@ -1,0 +1,139 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    height: auto;
+    background-image: 
+    url("../images/背景ピンクブロック.png"); 
+
+    background-repeat: repeat;
+
+    background-attachment: scroll; 
+
+    background-size: auto; 
+
+    background-position: center;
+    /* background-color:rgb(107, 110, 112) */
+}
+.inner
+{
+    width: 1500px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: 
+    url("../images/home_background.png");
+
+    background-repeat: no-repeat;
+
+    background-attachment: scroll; 
+
+    background-size: 100%; 
+
+    background-position: center top;
+    /* background-color: rgb(181, 255, 212); */
+
+}
+.header
+{
+    height: auto;
+    width: 1500px;
+    /* background-color: rgb(183, 213, 240); */
+}
+.title
+{
+    height: 180px;
+    width: auto;
+}
+.content
+{
+    width: 1500px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    /* background-color: cornflowerblue; */
+
+    
+
+}
+article
+{   
+    width: 450px;
+    /* background-color: rgb(230, 126, 111); */
+}
+article img[alt="news"]
+{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+}
+nav
+{
+    width: 600px;
+    /* background-color: bisque; */
+}
+table
+{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    border-spacing: 20px;
+}
+td
+{
+    text-align: center;
+    width: 50%;
+    height: 50px;
+}
+td img 
+{ 
+    width: 100%; 
+    height: auto;
+    display: block;
+    transition: transform 0.2s ease-in-out;
+}
+td img:hover 
+{
+    transform: scale(1.1);
+}
+td img[alt="はじめに"] 
+{
+    width: 100%;
+    margin: 0 auto;
+}
+td img[alt="about"] 
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+/* @media (max-width: 768px) 
+{
+    body
+    {
+        background-position: center center, center
+    }
+    .inner
+    {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    article
+    {
+        width: 100vw;
+        order: 2;
+        flex-grow: 1;
+    }
+    nav
+    {
+        width: 100vw;
+        order: 1;
+    }
+} */
